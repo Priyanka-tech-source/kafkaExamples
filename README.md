@@ -1,7 +1,7 @@
 # kafkaExamples
 This Project covers how to use Spring Boot with Spring Kafka to produce JSON/String message to Kafka topics and Consume JSON/String message from Kafka topics.
 
-Commands :
+Commands :-
 
 --To start zookeeper
 
@@ -21,4 +21,4 @@ Commands :
 
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 	kafkaExample --from-beginning
 
-.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic kafkaExampleJson 
+.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic kafkaExampleJson   
