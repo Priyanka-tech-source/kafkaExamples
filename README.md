@@ -11,8 +11,10 @@ Commands :
 
 --To create topic
 .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic kafkaExample
+
 .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic kafkaExampleJson
 
 --Publish to kafka topic
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 	kafkaExample --from-beginning
+
 .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic kafkaExampleJson 
